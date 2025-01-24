@@ -1,0 +1,9 @@
+main
+{
+  dec line name1 = " ";
+};
+
+main
+{
+ dec line name2 = " "
+};

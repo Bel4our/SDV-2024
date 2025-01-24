@@ -1,0 +1,25 @@
+﻿Сборка начата 24.01.2025 17:58:46.
+Уровень детализации журнала: Normal.     1>Проект "C:\лабы\Наркевич\КПО\KPO-3sem\SDV-2024\SE_CourseProject\AssemblerResult\AssemblerResult.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "Debug\AssemblerResult.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling program.asm...
+         cmd.exe /C "C:\Users\Даниил\AppData\Local\Temp\tmp980d98a3422041b5a0001a93a70a57b9.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\program.obj" /W3 /errorReport:prompt  /Taprogram.asm
+     1>program.asm(1): error A2088: END directive required at end of file
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\program.obj" /W3 /errorReport:prompt  /Taprogram.asm" с кодом "1".
+     1>Сборка проекта "C:\лабы\Наркевич\КПО\KPO-3sem\SDV-2024\SE_CourseProject\AssemblerResult\AssemblerResult.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\лабы\Наркевич\КПО\KPO-3sem\SDV-2024\SE_CourseProject\AssemblerResult\AssemblerResult.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         program.asm(1): error A2088: END directive required at end of file
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\program.obj" /W3 /errorReport:prompt  /Taprogram.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.22

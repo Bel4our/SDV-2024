@@ -1,0 +1,5 @@
+main
+{
+ dec numb chsilo = 5 / 0;
+
+};

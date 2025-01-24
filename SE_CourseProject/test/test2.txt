@@ -1,0 +1,8 @@
+main
+{
+ provi("stroka")
+ [
+   writeln "qwert";
+ ];
+
+};

@@ -1,0 +1,14 @@
+dec numb func sayHi(line name, line name2, line name3, line name4)
+{
+   dec line message = concat("Hello ", name);
+   writeln message;
+   dec symb symbol= 'fg';
+   dec numb length = lenline(message);
+   recovi length;
+};
+
+main
+{
+ dec numb chsilo = sayHi("fddg");
+
+};

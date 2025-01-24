@@ -1,0 +1,46 @@
+dec numb func sum(numb a, numb b)
+{
+dec symb sumbol = 'c';
+dec numb x = 5;
+x = a+b;
+recovi x;
+};
+
+
+main
+{
+dec numb first = (-12);
+dec numb x = 9;
+dec numb second = 23;
+dec numb s = sum(first, second);
+dec bool flag1 = true;
+dec bool flag2 = false;
+dec symb sumbol = 'c';
+
+provi(flag1!=flag2)
+[
+writeln "флаги не равны";
+]
+otherwise
+[
+writeln "флаги равны";
+];
+
+dec line word1 = "hello";
+dec line word2 = "word";
+dec line word3 = word1 + word2;
+
+
+
+dec numb length1 = lenline(word1);
+dec numb length2 = lenline(word2);
+
+provi(length1>length2)
+[
+write word1; 
+];
+
+copystr(word1, word3);
+
+recovi 0;
+};

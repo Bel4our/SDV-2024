@@ -1,0 +1,5 @@
+main
+{
+ dec line chsilo = "fhfh" + "dfgdfh";
+
+};

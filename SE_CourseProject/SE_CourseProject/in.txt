@@ -1,0 +1,86 @@
+dec numb func sayHi(line name)
+{
+   dec line message = concat("Hello ", name);
+   writeln message;
+   dec numb length = lenline(message);
+   recovi length;
+};
+
+dec bool func checkAge(numb age)
+{
+   dec bool isAdult;
+   provi(age != 18)
+   [
+     write "The person is an adult"; 
+     writeln '!';
+     isAdult = true;
+   ]
+   otherwise
+   [
+   
+    write "The person is not an adult";
+    writeln '$';
+    isAdult = false;
+   ];
+
+   recovi isAdult;
+};
+
+dec numb func checkAv(line name, bool flag)
+{
+
+   provi(flag)
+   [
+     write name;
+     writeln ": вы имеете возможность получить водительские права";
+   ]
+   otherwise
+   [
+     write name;
+     writeln ": вы не можете получить водительские права";
+   ];
+
+   recovi 0;
+};
+
+dec numb func abcd()
+{
+recovi 0;
+};
+
+main
+{
+  dec line name1 = "Daniil";
+  dec numb length1 = sayHi(name1);
+  dec numb age1 = 18 / abcd();
+  write age1;
+  dec bool isAdult1 = checkAge(age1);
+
+  checkAv(name1, isAdult1);
+ 
+  dec line name2 = "AnotherPerson";
+  dec numb length2 = sayHi(name2);
+  dec numb age2 = 15;
+  dec bool isAdult2 = checkAge(age2);
+  
+  checkAv(name2, isAdult2);
+
+  writeln " ";
+  writeln "*****јнализ шанса на успех*****";
+  write "Ўанс сдать на права составл€ет: ";
+  
+
+  dec numb chance = random(length1, length2) + 6 * (12 / 4) - 15 - (-1 * -3) + random(12, 87);
+  dec symb percent = '%';
+  write chance;
+  write percent;
+  
+
+  writeln " ";
+  
+  provi(chance == 100)
+  [
+   writeln "ƒа вы счастливчик!";
+   
+  ];
+};
